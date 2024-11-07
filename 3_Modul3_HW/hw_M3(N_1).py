@@ -7,7 +7,7 @@ def get_days_from_today(date):
     delta = (current_date - start_date).days
     return delta
 
-resolt = get_days_from_today("2020-10-09")
+resolt = get_days_from_today("2000-13-13")
 print(f"{resolt} days")
 
 
