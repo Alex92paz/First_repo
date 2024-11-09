@@ -1,0 +1,6 @@
+📦example_joke
+ ┣ 📂joke
+ ┃ ┣ 📜jokes.txt
+ ┃ ┣ 📜jokes_handler.py
+ ┃ ┗ 📜__init__.py
+ ┗ 📜main.py

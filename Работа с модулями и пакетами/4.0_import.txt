@@ -1,0 +1,33 @@
+ 📦example_init
+ ┣ 📂utility
+ ┃ ┣ 📂dummy
+ ┃ ┃ ┗ 📜functions.py
+ ┃ ┣ 📂useful
+ ┃ ┃ ┗ 📜functions.py
+ ┃ ┗ 📜__init__.py
+ ┗ 📜main.py
+
+--------------------------------------------------
+import utility
+utility.useful.functions.nice_function()
+utility.dummy.functions.not_bad("Test string")
+--------------------------------------------------
+from utility.useful.functions import nice_function
+from utility.dummy.functions import not_bad
+__all__ = ['nice_function', 'not_bad']
+--------------------------------------------------
+from utility import nice_function, not_bad
+nice_function()
+not_bad("Test string")
+--------------------------------------------------
+from utility import *
+nice_function()
+not_bad("Test string")
+--------------------------------------------------
+
+__all__ - це список модулів або пакетів, які імпортуються, якщо у виразі
+from ... import * в кінці вказаний символ *.
+
+if __name__ == "__main__"
+Конструкція if __name__ == "__main__": перевіряє, чи запускається файл безпосередньо,
+а не імпортується як модуль, і тільки в цьому випадку викликає main().
