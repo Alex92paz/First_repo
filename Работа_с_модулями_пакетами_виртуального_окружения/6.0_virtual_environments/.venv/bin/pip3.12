@@ -1,4 +1,4 @@
-#!/Users/alx_it/Documents/Git/First_repo/Other/.venv/bin/python3.12
+#!/Users/alx_it/Documents/Git/First_repo/Работа_с_модулями_пакетами_виртуального_окружения/6.0_virtual_environments/.venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys

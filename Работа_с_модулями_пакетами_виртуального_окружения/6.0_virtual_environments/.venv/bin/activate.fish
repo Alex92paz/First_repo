@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/alx_it/Documents/Git/First_repo/Other/.venv"
+set -gx VIRTUAL_ENV "/Users/alx_it/Documents/Git/First_repo/Работа_с_модулями_пакетами_виртуального_окружения/6.0_virtual_environments/.venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
