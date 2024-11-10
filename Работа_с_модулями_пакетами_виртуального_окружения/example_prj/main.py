@@ -2,7 +2,7 @@ from data import load_data, clean_data
 from processing import calculate_statistics
 
 def main():
-    filename = "example_prj/temperatures.txt"
+    filename = "/Users/alx_it/Documents/First_repo/Работа_с_модулями_пакетами_виртуального_окружения/example_prj/temperatures.txt"
     raw_data = load_data(filename)
     temperatures = clean_data(raw_data)
     stats = calculate_statistics(temperatures)
