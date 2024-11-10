@@ -9,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/alx_it/Documents/Git/First_repo/Работа_с_модулями_пакетами_виртуального_окружения/6.0_virtual_environments/.venv"
+setenv VIRTUAL_ENV "/Users/alx_it/Documents/First_repo/Работа_с_модулями_пакетами_виртуального_окружения/6.0_virtual_environments/.venv"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
